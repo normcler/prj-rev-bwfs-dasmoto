@@ -1,0 +1,46 @@
+/*
+Purpose: CSS Style sheet for Dasamoto's Arts & Crafts.
+
+Designer: N. S. Clerman, 29-30 June 2017
+*/
+
+/*Page-wide*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Main heading*/
+#top-header h1 {
+    text-align: center;
+    /*Relative url from location of this style file.
+      not the html file.*/
+    background-image: url("../images/pattern.jpeg");
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+/*Product General*/
+.product h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.product .bold-span {
+    font-weight: bold;
+    color: blue;
+}
+
+/*Product-specific heading background colors.*/
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
